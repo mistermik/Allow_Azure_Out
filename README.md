@@ -35,9 +35,9 @@ $RSGName = "NSGPassiveActive-RSG"
 => updateNSG $regions $VnetName $SubnetName $RSGName
  ```
 
+![Screenshot](NSG.png)
+
+
 Contributing
 ------------
 Special Thanks to Sérgio Velho 
-
-![Screenshot](NSG.png)
-
