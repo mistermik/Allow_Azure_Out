@@ -1,4 +1,4 @@
-# Allow_Azure_Out
+# Allow_Azure_Out - Dynamic Update Microsoft Public IP to restrict Azure VM Internet Traffic
 Restrict Azure VM to only allow the traffic to Azure public IP addresses
 
 Be very careful on “Deny All” outbound Internet traffic as you may prevent
