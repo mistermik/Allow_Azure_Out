@@ -33,7 +33,8 @@ $SubnetName = "Default"
 $RSGName = "NSGPassiveActive-RSG" 
 
 => updateNSG $regions $VnetName $SubnetName $RSGName
- 
  ```
+
+
 ![Screenshot](NSG.png)
 
