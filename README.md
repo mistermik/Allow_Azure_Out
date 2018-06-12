@@ -1,5 +1,5 @@
-Dynamic Update Azure Network Security Group Rules with Microsoft Public IP to restrict Azure VM Internet Traffic
-Restrict Azure VM to only allow the traffic to Azure public IP addresses
+Azure Network Security Group
+Restrict Azure VM to only allow traffic to specific Azure public IP addresses
 =============
 Be very careful on “Deny All” outbound Internet traffic as you may prevent
 Azure VM Agent and access to blobs and other functionalities not to work
@@ -35,6 +35,9 @@ $RSGName = "NSGPassiveActive-RSG"
 => updateNSG $regions $VnetName $SubnetName $RSGName
  
  ```
- Special Thanks to Sérgio Velho
+
+Contributing
+------------
+Special Thanks to Sérgio Velho
 
 ![Screenshot](NSG.png)
