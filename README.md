@@ -1,5 +1,5 @@
-Azure Network Security Group
-Restrict Azure VM to only allow traffic to specific Azure public IP addresses
+Azure Network Security Group-
+Restrict Azure VM to only allow traffic for specific Azure public IP addresses
 =============
 Be very careful on “Deny All” outbound Internet traffic as you may prevent
 Azure VM Agent and access to blobs and other functionalities not to work
