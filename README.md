@@ -1,4 +1,4 @@
-# Allow_Azure_Out - Dynamic Update Microsoft Public IP to restrict Azure VM Internet Traffic
+#Dynamic Update Azure Network Security Group Rules with Microsoft Public IP to restrict Azure VM Internet Traffic
 Restrict Azure VM to only allow the traffic to Azure public IP addresses
 
 Be very careful on “Deny All” outbound Internet traffic as you may prevent
@@ -20,6 +20,10 @@ Example of Rules:
                            "Direction": "Outbound",
                            "ProvisioningState": "Succeeded"
                          } 
+
+
+Usage
+-----
 
 Function: updateNSG
 Parameters:
