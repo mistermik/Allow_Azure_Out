@@ -36,8 +36,7 @@ $RSGName = "NSGPassiveActive-RSG"
  
  ```
 
-Contributing
-------------
-Special Thanks to Sérgio Velho
-
 ![Screenshot](NSG.png)
+
+
+
