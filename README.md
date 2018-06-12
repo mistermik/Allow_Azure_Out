@@ -28,7 +28,8 @@ $VnetName="Vnet"
 $SubnetName = "Default"
 $RSGName = "NSGPassiveActive-RSG" 
 
-=> updateNSG $regions $VnetName $SubnetName $RSGName 
+=> updateNSG $regions $VnetName $SubnetName $RSGName
  
  Special Thanks to Sérgio Velho
 
+![Screenshot](NSG.png)
