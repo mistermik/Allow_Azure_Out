@@ -24,7 +24,7 @@ Example of Rules:
 
 Usage
 -----
-
+```ruby
 Function: updateNSG
 Parameters:
 $regions = @("uswest")
